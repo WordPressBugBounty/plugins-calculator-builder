@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 					<?php
 					printf(
 					/* translators: %s: The name of the plugin or application */
-						__( 'Export the  settings for %s as a .json file. This allows you to easily import the configuration into another site.',
+						esc_html__( 'Export the  settings for %s as a .json file. This allows you to easily import the configuration into another site.',
 							'calculator-builder' ), '<b>CalcHub</b>' ); ?>
                 </p>
 
@@ -55,7 +55,7 @@ defined( 'ABSPATH' ) || exit;
 					<?php
 					printf(
 					/* translators: %s: The name of the plugin or application */
-						__( 'Import the %s settings from a .json file. This file can be obtained by exporting the settings on another site using the form above.',
+						esc_html__( 'Import the %s settings from a .json file. This file can be obtained by exporting the settings on another site using the form above.',
 							'calculator-builder' ), '<b>CalcHub</b>    ' ); ?>
                 </p>
                 <form method="post" enctype="multipart/form-data" action="">

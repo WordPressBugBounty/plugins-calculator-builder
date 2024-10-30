@@ -38,7 +38,7 @@ $support_url = admin_url('admin.php?page='.CALCHUB_PLUGIN_URL.'&tab=support');
                 <span class="calchub-heading-separator"></span>
                 <span><?php
 					if ( isset($_REQUEST['act']) && $_REQUEST['act'] === 'update' ) {
-						esc_attr_e( 'Update Calculator' );
+						esc_attr_e( 'Update Calculator', 'calculator-builder' );
 					} else {
 						echo esc_attr( $tabs[ $current_tab ] );
 					}

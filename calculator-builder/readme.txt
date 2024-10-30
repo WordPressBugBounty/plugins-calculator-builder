@@ -3,9 +3,9 @@ Contributors: calchub, Wpcalc, lobov
 Donate link: https://calchub.xyz
 Tags: calculator, calculator builder, online calculator, calculator maker, calculate
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.6.1
+Stable tag: 1.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -213,6 +213,12 @@ If you have any questions concerning the plugin ask us at the [WordPress forum](
 5. Frontend - calculator on frontend
 
 == Changelog ==
+
+= 1.6.2 =
+* Fixed: main icon in the admin menu.
+* Fixed: minor bugs
+* Update: translate file
+
 = 1.6.1 =
 * Fixed: minor bug with saving the calculator
 

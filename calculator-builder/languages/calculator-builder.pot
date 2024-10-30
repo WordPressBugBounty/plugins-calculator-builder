@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Calculator Builder | CalcHub\n"
-"POT-Creation-Date: 2023-05-01 13:10+0300\n"
+"POT-Creation-Date: 2024-10-30 13:44+0200\n"
 "PO-Revision-Date: 2022-12-21 14:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: calculator-builder.php\n"
@@ -26,223 +26,226 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: admin/class-admin.php:67
+#. translators: Insert plugin links
+#: admin/class-admin.php:68
 #, php-format
 msgid ""
 "Thank you for using <a href=\"%1$s\" target=\"_blank\">%2$s</a>! Please <a "
 "href=\"%3$s\" target=\"_blank\">rate us on %4$s</a>"
 msgstr ""
 
-#: admin/class-admin.php:70
+#: admin/class-admin.php:71
 msgid "Calculator Builder"
 msgstr ""
 
-#: admin/class-admin.php:87
+#: admin/class-admin.php:88
 msgid "CalcHub version "
 msgstr ""
 
 #. Author of the plugin/theme
-#: admin/class-admin.php:88
+#: admin/class-admin.php:89
 msgid "CalcHub"
 msgstr ""
 
-#: admin/fields-option_old.php:32 admin/fields-options.php:32
+#: admin/fields-options.php:32
 msgid "Add Field"
 msgstr ""
 
-#: admin/fields-option_old.php:35 admin/fields-options.php:35
+#: admin/fields-options.php:35
 msgid "Required"
 msgstr ""
 
-#: admin/fields-option_old.php:44 admin/fields-options.php:44
+#: admin/fields-options.php:44
 msgid "Number"
 msgstr ""
 
-#: admin/fields-option_old.php:47 admin/fields-options.php:47
+#: admin/fields-options.php:47
 msgid "Select"
 msgstr ""
 
-#: admin/fields-option_old.php:50 admin/fields-options.php:50
+#: admin/fields-options.php:50
 msgid "Radio"
 msgstr ""
 
-#: admin/fields-option_old.php:53 admin/fields-options.php:53
+#: admin/fields-options.php:53
 msgid "Checkbox"
 msgstr ""
 
-#: admin/fields-option_old.php:55 admin/fields-options.php:55
+#: admin/fields-options.php:55
 msgid "Number + Select"
 msgstr ""
 
-#: admin/fields-option_old.php:58 admin/fields-options.php:58
+#: admin/fields-options.php:58
 msgid "Buttons"
 msgstr ""
 
-#: admin/fields-option_old.php:61 admin/fields-options.php:61
+#: admin/fields-options.php:61
 msgid "Result"
 msgstr ""
 
-#: admin/fields-option_old.php:64 admin/fields-option_old.php:135
-#: admin/fields-options.php:64 admin/fields-options.php:135
-#: inc/class-calchub-list-table.php:194
+#: admin/fields-options.php:64 admin/fields-options.php:140
+#: inc/class-calchub-list-table.php:195
 msgid "Title"
 msgstr ""
 
-#: admin/fields-option_old.php:67 admin/fields-options.php:67
+#: admin/fields-options.php:67
 msgid "Separator"
 msgstr ""
 
-#: admin/fields-option_old.php:70 admin/fields-options.php:70
+#: admin/fields-options.php:70
 msgid "Spacer"
 msgstr ""
 
-#: admin/fields-option_old.php:73 admin/fields-option_old.php:116
-#: admin/fields-options.php:73 admin/fields-options.php:116
+#: admin/fields-options.php:73 admin/fields-options.php:121
 msgid "Textarea"
 msgstr ""
 
-#: admin/fields-option_old.php:76 admin/fields-options.php:76
+#: admin/fields-options.php:76
 msgid "Input"
 msgstr ""
 
-#: admin/fields-option_old.php:79 admin/fields-options.php:79
+#: admin/fields-options.php:79
 msgid "Range"
 msgstr ""
 
-#: admin/fields-option_old.php:91 admin/fields-options.php:91
+#: admin/fields-options.php:82
+msgid "Alert"
+msgstr ""
+
+#: admin/fields-options.php:94
 msgid "Text"
 msgstr ""
 
-#: admin/fields-option_old.php:93 admin/fields-options.php:93
+#: admin/fields-options.php:96
 msgid "Email"
 msgstr ""
 
-#: admin/fields-option_old.php:95 admin/fields-options.php:95
+#: admin/fields-options.php:98
 msgid "Date"
 msgstr ""
 
-#: admin/fields-option_old.php:97 admin/fields-options.php:97
+#: admin/fields-options.php:100
 msgid "DateTime"
 msgstr ""
 
-#: admin/fields-option_old.php:99 admin/fields-options.php:99
+#: admin/fields-options.php:102
 msgid "Month"
 msgstr ""
 
-#: admin/fields-option_old.php:101 admin/fields-options.php:101
+#: admin/fields-options.php:104
 msgid "Time"
 msgstr ""
 
-#: admin/fields-option_old.php:103 admin/fields-options.php:103
+#: admin/fields-options.php:106
+msgid "Time with seconds"
+msgstr ""
+
+#: admin/fields-options.php:108
 msgid "Week"
 msgstr ""
 
-#: admin/fields-option_old.php:114 admin/fields-options.php:114
+#: admin/fields-options.php:119
 msgid "Field"
 msgstr ""
 
-#: admin/fields-option_old.php:118 admin/fields-options.php:118
+#: admin/fields-options.php:123
 msgid "HTML block"
 msgstr ""
 
-#: admin/fields-option_old.php:144 admin/fields-options.php:144
+#: admin/fields-options.php:149
 msgid "Addon"
 msgstr ""
 
-#: admin/fields-option_old.php:154 admin/fields-options.php:154
+#: admin/fields-options.php:159
 msgid "right"
 msgstr ""
 
-#: admin/fields-option_old.php:156 admin/fields-options.php:156
+#: admin/fields-options.php:161
 msgid "left"
 msgstr ""
 
-#: admin/fields-option_old.php:171 admin/fields-options.php:171
+#: admin/fields-options.php:176
 msgid "value"
 msgstr ""
 
-#: admin/fields-option_old.php:175 admin/fields-option_old.php:188
-#: admin/fields-option_old.php:204 admin/fields-option_old.php:217
-#: admin/fields-options.php:175 admin/fields-options.php:188
-#: admin/fields-options.php:204 admin/fields-options.php:217
+#: admin/fields-options.php:180 admin/fields-options.php:193
+#: admin/fields-options.php:209 admin/fields-options.php:222
 msgid "Enter max or left empty"
 msgstr ""
 
-#: admin/fields-option_old.php:184 admin/fields-options.php:184
+#: admin/fields-options.php:189
 msgid "step"
 msgstr ""
 
-#: admin/fields-option_old.php:200 admin/fields-options.php:200
+#: admin/fields-options.php:205
 msgid "min"
 msgstr ""
 
-#: admin/fields-option_old.php:213 admin/fields-options.php:213
+#: admin/fields-options.php:218
 msgid "max"
 msgstr ""
 
-#: admin/fields-option_old.php:230 admin/fields-options.php:230
+#: admin/fields-options.php:235
 msgid "placeholder"
 msgstr ""
 
-#: admin/fields-option_old.php:243 admin/fields-options.php:243
-#: admin/formula.php:175
+#: admin/fields-options.php:248 admin/formula.php:177
 msgid "Options"
 msgstr ""
 
-#: admin/fields-option_old.php:246 admin/fields-options.php:246
+#: admin/fields-options.php:251
 msgid "name = value"
 msgstr ""
 
-#: admin/fields-option_old.php:255 admin/fields-options.php:255
+#: admin/fields-options.php:260
 msgid "Button Calculate"
 msgstr ""
 
-#: admin/fields-option_old.php:258 admin/fields-options.php:258
+#: admin/fields-options.php:263
 msgid "Calculate"
 msgstr ""
 
-#: admin/fields-option_old.php:264 admin/fields-options.php:264
+#: admin/fields-options.php:269
 msgid "Button Reset"
 msgstr ""
 
-#: admin/fields-option_old.php:267 admin/fields-options.php:267
+#: admin/fields-options.php:272
 msgid "Reset"
 msgstr ""
 
-#: admin/fields-option_old.php:276 admin/fields-options.php:276
+#: admin/fields-options.php:281
 msgid "Font Size"
 msgstr ""
 
-#: admin/fields-option_old.php:284 admin/fields-option_old.php:324
-#: admin/fields-options.php:284 admin/fields-options.php:324
+#: admin/fields-options.php:289 admin/fields-options.php:329
 msgid "px"
 msgstr ""
 
-#: admin/fields-option_old.php:292 admin/fields-options.php:292
+#: admin/fields-options.php:297
 msgid "Font Weight"
 msgstr ""
 
-#: admin/fields-option_old.php:296 admin/fields-options.php:296
+#: admin/fields-options.php:301
 msgid "Bold"
 msgstr ""
 
-#: admin/fields-option_old.php:298 admin/fields-options.php:298
+#: admin/fields-options.php:303
 msgid "Normal"
 msgstr ""
 
-#: admin/fields-option_old.php:300 admin/fields-options.php:300
+#: admin/fields-options.php:305
 msgid "Lighter"
 msgstr ""
 
-#: admin/fields-option_old.php:302 admin/fields-options.php:302
+#: admin/fields-options.php:307
 msgid "Bolder"
 msgstr ""
 
-#: admin/fields-option_old.php:316 admin/fields-options.php:316
+#: admin/fields-options.php:321
 msgid "Height"
 msgstr ""
 
-#: admin/fields-option_old.php:335 admin/fields-options.php:335
+#: admin/fields-options.php:340
 msgid "Extra class"
 msgstr ""
 
@@ -286,16 +289,24 @@ msgstr ""
 msgid "Fields"
 msgstr ""
 
-#: admin/formula.php:180
+#: admin/formula.php:182
 msgid "Obfuscation"
 msgstr ""
 
-#: admin/formula.php:187
+#: admin/formula.php:189
 msgid "Make a calculation when loading the form"
 msgstr ""
 
-#: admin/formula.php:194
+#: admin/formula.php:196
 msgid "Hide fields of results when changing calculator parameters"
+msgstr ""
+
+#: admin/formula.php:203
+msgid "Perform the calculation only when the button is clicked."
+msgstr ""
+
+#: admin/formula.php:210
+msgid "Calculate when the parameters are changed."
 msgstr ""
 
 #: admin/page-list.php:22
@@ -319,7 +330,7 @@ msgid "Send Support Ticket"
 msgstr ""
 
 #: admin/page-main.php:23
-msgid "Extensions"
+msgid "Add-on"
 msgstr ""
 
 #: admin/page-main.php:41
@@ -338,11 +349,11 @@ msgstr ""
 msgid "Register an item name"
 msgstr ""
 
-#: admin/page-settings.php:53 inc/class-calchub-list-table.php:196
+#: admin/page-settings.php:53 inc/class-calchub-list-table.php:197
 msgid "Tag"
 msgstr ""
 
-#: admin/page-settings.php:69 inc/class-calchub-list-table.php:195
+#: admin/page-settings.php:69 inc/class-calchub-list-table.php:196
 msgid "Shortcode"
 msgstr ""
 
@@ -383,44 +394,47 @@ msgid "Your Message sent to the Support."
 msgstr ""
 
 #: admin/page-support.php:81
-msgid "Sorry, but message did not send. Please, contact us yoda@calchub.xyz"
+msgid ""
+"Sorry, but message did not send. Please, contact us hey@wow-company.com"
 msgstr ""
 
 #: admin/page-tools.php:21
 msgid "Export Settings"
 msgstr ""
 
-#: admin/page-tools.php:26
+#. translators: %s: The name of the plugin or application
+#: admin/page-tools.php:28
 #, php-format
 msgid ""
 "Export the  settings for %s as a .json file. This allows you to easily "
 "import the configuration into another site."
 msgstr ""
 
-#: admin/page-tools.php:41 inc/class-calchub-list-table.php:132
+#: admin/page-tools.php:43 inc/class-calchub-list-table.php:134
 msgid "Export"
 msgstr ""
 
-#: admin/page-tools.php:50
+#: admin/page-tools.php:52
 msgid "Import Settings"
 msgstr ""
 
-#: admin/page-tools.php:54
+#. translators: %s: The name of the plugin or application
+#: admin/page-tools.php:58
 #, php-format
 msgid ""
 "Import the %s settings from a .json file. This file can be obtained by "
 "exporting the settings on another site using the form above."
 msgstr ""
 
-#: admin/page-tools.php:65
+#: admin/page-tools.php:69
 msgid "Update item if item already exists."
 msgstr ""
 
-#: admin/page-tools.php:74
+#: admin/page-tools.php:78
 msgid "Import"
 msgstr ""
 
-#: calculator-builder.php:124 calculator-builder.php:135
+#: calculator-builder.php:129 calculator-builder.php:140
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
@@ -432,11 +446,11 @@ msgstr ""
 msgid "Calculator Updated"
 msgstr ""
 
-#: inc/class-calchub-db.php:163
+#: inc/class-calchub-db.php:164
 msgid "Save"
 msgstr ""
 
-#: inc/class-calchub-db.php:183
+#: inc/class-calchub-db.php:184
 msgid "Update"
 msgstr ""
 
@@ -457,39 +471,31 @@ msgstr ""
 msgid "Please upload a file to import"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:115 inc/class-calchub-list-table.php:238
+#: inc/class-calchub-list-table.php:117 inc/class-calchub-list-table.php:239
 msgid "Untitle"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:125
+#: inc/class-calchub-list-table.php:127
 msgid "Edit"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:127
+#: inc/class-calchub-list-table.php:129
 msgid "Duplicate"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:130 inc/class-calchub-list-table.php:352
+#: inc/class-calchub-list-table.php:132 inc/class-calchub-list-table.php:353
 msgid "Delete"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:137
+#: inc/class-calchub-list-table.php:139
 msgid "View"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:252
+#: inc/class-calchub-list-table.php:253
 msgid "Copy"
 msgstr ""
 
-#: inc/class-calchub-list-table.php:392
-msgid "Filter by tag"
-msgstr ""
-
-#: inc/class-calchub-list-table.php:395
-msgid "All"
-msgstr ""
-
-#: inc/class-calchub-list-table.php:405
+#: inc/class-calchub-list-table.php:406
 msgid "Filter"
 msgstr ""
 
@@ -502,13 +508,10 @@ msgid "Calculator Builder | CalcHub"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://wordpress.org/plugins/calculator-builder/"
+#. Author URI of the plugin/theme
+msgid "https://calchub.xyz/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid "Easily create Online calculators"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://calchub.xyz"
 msgstr ""

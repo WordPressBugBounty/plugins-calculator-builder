@@ -31,7 +31,7 @@ class CalcHub_DB {
 			return;
 		}
 
-		if ( wp_verify_nonce( $_REQUEST['calculator_delete'], 'calchub_action' ) && current_user_can( 'manage_options' )
+		if ( wp_verify_nonce( sanitize_text_field( wp_unslash( $_REQUEST['calculator_delete'] ) ), 'calchub_action' ) && current_user_can( 'manage_options' )
 		) {
 			global $wpdb;
 			$table = $wpdb->prefix . $this->table_name;
@@ -43,7 +43,7 @@ class CalcHub_DB {
 		$response = 'No';
 		if ( isset( $_POST['calculator_save'] ) ) {
 			if ( ! empty( $_POST )
-			     && wp_verify_nonce( $_POST['calculator_save'], 'calchub_save_action' )
+			     && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['calculator_save'] ) ), 'calchub_save_action' )
 			     && current_user_can( 'manage_options' )
 			) {
 				$response = $this->save_data();
@@ -55,8 +55,8 @@ class CalcHub_DB {
 
 	private function save_data(): array {
 		$add     = ( isset( $_REQUEST['add'] ) ) ? absint( $_REQUEST['add'] ) : '';
-		$id      = absint( $_POST['tool_id'] );
-		$title   = sanitize_text_field( $_POST['title'] );
+		$id      = isset( $_POST['tool_id'] ) ? absint( $_POST['tool_id'] ) : 0;
+		$title   = sanitize_text_field( wp_unslash( $_POST['title'] ) );
 		$form    = CALCHUB()->sanitize->form( $_POST['form'], false );
 		$formula = CALCHUB()->sanitize->formula( $_POST['formula'] );
 		$tag     = sanitize_text_field( $_POST['tag'] );

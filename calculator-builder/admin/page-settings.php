@@ -168,7 +168,7 @@ $url_form = admin_url() . 'admin.php?page=' . CALCHUB_PLUGIN_SLUG; ?>
 		<input type="hidden" name="tool_id" value="<?php echo absint( $tool_id ); ?>" id="tool_id"/>
 		<input type="hidden" name="add" id="add_action" value="<?php echo absint( $add_action ); ?>"/>
 		<input type="hidden" name="id" value="<?php echo absint( $id ); ?>"/>
-		<input type="hidden" name="param[time]" value="<?php echo time(); ?>"/>
+		<input type="hidden" name="param[time]" value="<?php echo esc_attr(time()); ?>"/>
 		<?php wp_nonce_field( 'calchub_save_action', 'calculator_save' ); ?>
 		<p>
 			<button class="button is-link button-large is-size-6 is-radiusless submit-btn has-background-link">

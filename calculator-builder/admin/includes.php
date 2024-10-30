@@ -13,7 +13,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-$includes = isset( $param['includes'] ) ? count($param['includes']) : 0;
+$includes = isset( $param['includes'] ) ? count( $param['includes'] ) : 0;
 
 ?>
 
@@ -37,7 +37,8 @@ $includes = isset( $param['includes'] ) ? count($param['includes']) : 0;
                         </div>
                         <div class="control is-expanded">
                             <input type="url" class="input" name="param[includes_file][]"
-                                   value="<?php echo $param['includes_file'][ $i ]; ?>" placeholder="URL to file">
+                                   value="<?php echo esc_attr( $param['includes_file'][ $i ] ); ?>"
+                                   placeholder="URL to file">
                         </div>
                     </div>
                 </div>

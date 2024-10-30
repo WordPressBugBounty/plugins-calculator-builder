@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       Calculator Builder | CalcHub
- * Plugin URI:        https://wordpress.org/plugins/calculator-builder/
+ * Plugin URI:        https://calchub.xyz/
  * Description:       Easily create Online calculators
  * Author:            CalcHub
- * Author URI:        https://calchub.xyz
- * Version:           1.6.1
+ * Author URI:        https://calchub.xyz/
+ * Version:           1.6.2
  * Text Domain:       calculator-builder
  * License:           GPL-2.0+
  * Domain Path:       languages
