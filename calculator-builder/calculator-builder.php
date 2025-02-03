@@ -5,7 +5,7 @@
  * Description:       Easily create Online calculators
  * Author:            CalcHub
  * Author URI:        https://calchub.xyz/
- * Version:           1.6.2
+ * Version:           1.6.3
  * Text Domain:       calculator-builder
  * License:           GPL-2.0+
  * Domain Path:       languages
@@ -86,7 +86,7 @@ if ( ! class_exists( 'Calculator_Builder' ) ) :
 		private function setup_constants() {
 			// Plugin version.
 			if ( ! defined( 'CALCHUB_VERSION' ) ) {
-				define( 'CALCHUB_VERSION', '1.6.1' );
+				define( 'CALCHUB_VERSION', '1.6.3' );
 			}
 
 			// Plugin Admin slug.
